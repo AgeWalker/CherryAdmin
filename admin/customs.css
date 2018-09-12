@@ -1,0 +1,100 @@
+.form-group .cover_img_wrap .cover_img,
+.additional_images_wrap .cover_img {
+  max-width: 200px;
+  max-height: 200px;
+  margin-bottom: 6px;
+}
+
+.form-group .cover_img_wrap .cover_delete,
+.additional_images_wrap .cover_delete,
+.related_products_wrap .related_products_delete {
+  margin-left: 6px;
+  margin-right: 6px;
+  font-size: 20px;
+  color: #DD4B39;
+}
+
+.additional_params_wrap>div {
+  margin-bottom: 6px;
+}
+
+.additional_params_wrap>div input {
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+.additional_params_wrap>div.pre_gen input {
+  margin-right: 4px;
+  margin-bottom: 4px;  
+}
+
+.filter_params_list li {
+  margin-bottom: 6px;
+}
+.filter_params_list li a {
+  margin-left: 12px;
+}
+
+.filter_params_select select {
+  margin-left: 12px;
+  width: 200px !important;
+}
+.filter_params_select label {
+  width: 150px;
+}
+
+p.have_no_item {
+  margin: 12px 0 12px 12px;
+  font-weight: bold;
+}
+
+.in_admin_pagination li {
+  display: inline-block;
+  margin: 0px 3px;
+}
+.in_admin_pagination span {
+  cursor: default;
+}
+.in_admin_pagination li span.dots {
+  margin: 0px 6px;
+}
+
+.dashboard_action_buttons>div {
+  margin-bottom: 6px;
+}
+
+.dashboard_action_buttons .btn-social>:first-child {
+  width: 38px;
+}
+
+.timeline-title {
+  margin-top: 0;
+}
+
+.sidebar-menu>li .label.notification_label {
+  margin-right: 25px;
+}
+
+table.has-columns-hidden > tbody > tr > td > span.responsiveExpander {
+    background: url('plugins/dataTables/images/plus.png') no-repeat 5px center;
+    padding-left: 32px;
+    cursor: pointer;
+}
+
+table.has-columns-hidden > tbody > tr.detail-show > td span.responsiveExpander {
+    background: url('plugins/dataTables/images/minus.png') no-repeat 5px center;
+}
+
+table.has-columns-hidden > tbody > tr.row-detail > td {
+    background: #eee;
+}
+
+table.has-columns-hidden > tbody > tr.row-detail > td > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+table.has-columns-hidden > tbody > tr.row-detail > td > ul > li > span.columnTitle {
+    font-weight: bold;
+}
